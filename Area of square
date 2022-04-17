@@ -1,0 +1,15 @@
+public class Main {
+  public static void main(String[] args) {
+  int width =5;
+  int height=10;
+  int base =15;
+  int length=20;
+  int side=25;
+  int area_square= width*width; 
+  System.out.println("Area of square"+area_square); 
+  int area_rectangle=height*base;
+  System.out.println("Area of rectangle"+ area_rectangle);
+  int area_triangle=length*side;
+    System.out.println("Area of triangle"+area_triangle);
+  }
+}
